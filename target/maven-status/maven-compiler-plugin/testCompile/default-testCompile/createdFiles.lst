@@ -1,0 +1,8 @@
+environment_Var\environmentVars.class
+inputData\inputData.class
+pageObjects\frontPage.class
+runner\runnerClass.class
+pageObjects\register.class
+stepDef\Register_user.class
+pageMethods\frontM.class
+pageMethods\registerM.class
