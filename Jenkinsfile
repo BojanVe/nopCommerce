@@ -5,10 +5,10 @@ node {
 		}
 	stage ('Build'){
     	dir("comtest") {
-	   sh "mvn clean install"
+	   bat "mvn clean install"
        }
        	dir("target") {
-	   sh "java -jar com.test-1.0-SNAPSHOT.jar"
+	   bat "java -jar com.test-1.0-SNAPSHOT.jar"
        }
 		}
 }
