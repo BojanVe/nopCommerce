@@ -1,8 +1,13 @@
-environment_Var\environmentVars.class
+com\example\csv\WriteCsvFile.class
+stepDef\Login_user.class
 inputData\inputData.class
 pageObjects\frontPage.class
 runner\runnerClass.class
+pageObjects\loginPage.class
 pageObjects\register.class
+pageMethods\loginM.class
 stepDef\Register_user.class
+com\example\csv\ReadCsvFile.class
+environment_Var\environmentVars.class
 pageMethods\frontM.class
 pageMethods\registerM.class
