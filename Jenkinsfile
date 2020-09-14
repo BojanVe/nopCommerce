@@ -4,7 +4,7 @@ node {
 		git "https://github.com/BojanVe/nopCommerce.git"
 		}
 	stage ('Build'){
-    	dir("comtest") {
+    	dir("") {
 	   bat "mvn clean install"
        }
        	dir("target") {
